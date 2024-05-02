@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device,initial-scale=1.0">
+	 <title>Espace Etudiant</title>
+</head>
+</body>
+      <hl>Espace Etudiant</hl>
+	  
+	  <!-- voir ses informations administratives-->
+	  <h2>voir ses informations administratives<h2>
+	  <a href="infos_etudiant.php">voir mes informations</a>
+	  
+	  <!-- voir ses notes dans une matière-->
+	  <h2>voir ses notes dans une matière</h2>
+	  <form action="voir_notes_matiere.php"method="post">
+	  <label for="matiere">selectioner une matiere :</label>
+	  <input type="text" id="matiere" name="matiere" required>
+	  <input type="submit" value="voir ses notes">
+  </form>
+
+<!--voir toutes ses notes  -->
+<h2>voir toutes ses notes</h2>
+<a href="voir_toutes_notes.php">voir toutes mes notes</a>
+<!-- modifier son mot de passe-->
+<h2>Modifier son mot de passe</h2>
+<form action="modifier_mot de passe.php" method=post">
+<label for="ancien_mot_de_passe">Ancien mot de passe:</label>
+<input type="password" id="ancien-mot de passe" name="ancien_mot_de_passe" required><br>
+<label for="nouveau_mot_de_passe"Nouveau mot de passe :</label>
+<input type="password" id="Nouveau8mot_de_passe" required><br>
+<label for="cofirmer_nouveau_de_ passe">Confirmer nouveau mot de passe :</label><br>
+<input type="password" id="Confirmer_nouveau_de_passe" name="confirmer_nouveau_de_passe" required><br>
+<input type="sibmit"value="Modifier le mot de passe">
+
+</form>
+</body>
+</html>
